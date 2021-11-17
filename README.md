@@ -1,4 +1,4 @@
-### Nikita Lobanovsky/Zhenya Anishenko 
+### Nikita Lobanovsky / Zhenya Anishenko 
 *group 021703*
 
 - ***1 lab:*** 1.5.2 Pyatnashki
