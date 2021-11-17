@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>LOGIN</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+<body>
+<style>
+    body {
+        background-color: #3e3e3e;
+        color: white;
+    }
+</style>
+<div class="container">
+    <form class="form-signin" method="post" action="/bank/banklogin" th:object="${loginRequest}">
+        <h class="form-signin-heading">Welcome to the best and smartest bank! Switzerland is in shock!</h>
+        <h2 class="form-signin-heading">Please pass the card</h2>
+        <p>
+            <label for="cardNumber" class="sr-only">cardNumber</label>
+            <input type="text" id="cardNumber" name="cardNumber" class="form-control" placeholder="cardNumber" required autofocus>
+        </p>
+        <p>
+            <label for="pin" class="sr-only">Pin</label>
+            <input type="password" id="pin" name="pin" class="form-control" placeholder="Pin" required>
+        </p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    </form>
+</div>
+</body></html>

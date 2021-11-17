@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ADD CARD</title>
+    <link href="style.css" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+<body>
+<style>
+    body {
+        background-color: #3e3e3e;
+        color: white;
+    }
+</style>
+<div class="container">
+    <form class="form-signin" method="post" action="/admin/add-card" th:object="${addRequest}">
+        <h2 class="form-signin-heading">Add new card</h2>
+        <p>
+            <label for="cardNumber" class="sr-only">Card number</label>
+            <input type="text" id="cardNumber" name="cardNumber" class="form-control" placeholder="cardNumber" required autofocus>
+        </p>
+        <p>
+            <label for="pin" class="sr-only">Pin</label>
+            <input type="password" id="pin" name="pin" class="form-control" placeholder="Pin" required>
+        </p>
+        <p>
+            <label for="cardValidationDate" class="sr-only">ValidDate</label>
+            <input type="text" id="cardValidationDate" name="cardValidationDate" class="form-control" placeholder="Validation date" required autofocus>
+        </p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Add</button>
+    </form>
+</div>
+</body></html>
