@@ -1,0 +1,15 @@
+﻿  Puzzle.psis.cpp
+  game.cpp
+C:\Users\anisc\source\repos\Puzzle.psis\Puzzle.psis\game.cpp(63,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anisc\source\repos\Puzzle.psis\Puzzle.psis\game.cpp(70,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\anisc\source\repos\Puzzle.psis\Puzzle.psis\game.cpp(79,9): warning C4101: upItr: неиспользованная локальная переменная
+C:\Users\anisc\source\repos\Puzzle.psis\Puzzle.psis\game.cpp(80,9): warning C4101: downItr: неиспользованная локальная переменная
+  Создание кода...
+C:\Users\anisc\source\repos\Puzzle.psis\Puzzle.psis\game.cpp(66): warning C4715: Logic::findEmptySpace: значение возвращается не при всех путях выполнения
+C:\Users\anisc\source\repos\Puzzle.psis\Puzzle.psis\game.cpp(73): warning C4715: Logic::findIndexOfChoice: значение возвращается не при всех путях выполнения
+Puzzle.psis.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) в функции _main.
+Puzzle.psis.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) в функции _main.
+Puzzle.psis.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) в функции _main.
+Puzzle.psis.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) в функции _main.
+Puzzle.psis.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ) в функции _main.
+C:\Users\anisc\source\repos\Puzzle.psis\Debug\Puzzle.psis.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
